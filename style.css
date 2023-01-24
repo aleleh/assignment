@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ropa+Sans&display=swap');
+
+html {
+    font-family: 'Ropa Sans', sans-serif;
+    scroll-behavior: smooth;
+    color: var(--colorMain);
+
+    --colorMain: black;
+    --colorSecond: white;
+    --colorThird: pink;
+}
+
+h1 {
+    color: var(--colorMain);
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    padding: 5px;
+}
+
+header {
+    padding: 5px;
+    background-color: var(--colorSecond);
+    margin: 0px;
+}
+
+body {
+    background-color: var(--colorSecond);
+    color: var(--colorMain);
+}
+
+section {
+    padding: 5px;
+}
+
+.cooking-technique {
+    padding: 5px;
+}
+
+.article {
+    padding: 5px;
+}
+
+.recipe {
+    border: 1px solid var(--colorMain);
+    padding: 5px;
+    margin: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+nav {
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: var(--colorMain);
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+nav li a:hover {
+    border: 1px solid var(--colorMain);
+    transition: 0.1s;
+}
+
+#image1 {
+    max-width: 600px;
+    max-height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ingridiens-list {
+    list-style-type: disc;
+    margin: 16px 0px;
+    padding: 0px 0px 0px 40px;
+}
+
+footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
